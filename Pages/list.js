@@ -42,7 +42,7 @@ const App = () => {
   const onPress = () => navigation.navigate('Details');
 
   const renderItem = ({ item }) => {
-    const backgroundColor = item.id === selectedId ? "#6e3b6e" : "#f9c2ff";
+    const backgroundColor = item.id === selectedId ? "blue" : "skyblue";
     const color = item.id === selectedId ? 'white' : 'black';
 
     return (
